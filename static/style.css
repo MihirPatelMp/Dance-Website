@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Space+Mono&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    padding: 0px 14px ;
+    height: 48px;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.logo{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}
+.logo img{
+    filter: invert(100%);
+    height: 27px;
+    margin: 0px 8px;
+}
+
+/* #navbar ul{
+    display:flex; 
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+
+} */
+
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0px 0px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    font-family: "VerizonNHG Display", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+#navbar ul li a:hover{
+    color: rgb(214, 124, 124);
+    
+}
+
+#introSection{
+    height: 500px;
+    background: center/cover no-repeat url('/static/images/bg.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 270px;
+}
+#introSection div h1{
+    font-size:50px;
+    color: rgb(0, 0, 0);
+}
+#introSection div.small{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+#missionSection{
+    height: 284px;
+    background-color: #fff1f1;
+
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 4px;
+    font-family: cursive;
+    font-size: 26px;
+}
+.missions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 23%;
+    border: 2px solid black;
+    height: 177px;
+    display: inline-block;
+    margin: 14px 22px;
+    border-radius: 9px;
+    background-color: white;
+}
+.card h3{
+    text-align: center;
+    margin-top: 6px;
+} 
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 5px;
+}
+.card-img{
+    height: 100px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content p{
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+
+}
+#sponcerSection{
+    height: 200px;
+    background-color: rgb(128, 128, 138);
+}
+#sponcerSection h2{
+    text-align: center;
+    padding-top: 4px;
+    font-family: cursive;
+    font-size: 26px;
+}
+.sponcers{
+    height: 100px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 23px 40px;
+}
+#footer{
+    height: 50px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

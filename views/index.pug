@@ -1,0 +1,64 @@
+doctype html 
+html 
+    head 
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul
+                div.logo 
+                    img(src="/static/images/h.png", alt="Error") 
+                    span MP
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+
+        section#introSection 
+            div 
+                h1 
+                    |Dance Acedemy
+            div.small 
+                |Eat Sleep Dance Repeat        
+
+        section#missionSection 
+            h2
+                |Our Mission
+            div.missions    
+                div.card 
+                    h3 Dance Perfection
+                    div.card-box 
+                        div.card-img 
+                            img(src="/static/images/h.png", alt="Error") 
+                        div.card-content 
+                            p This is a best dance academy of the universe.
+                div.card 
+                    h3 Dance the way you like
+                    div.card-box 
+                        div.card-img 
+                            img(src="/static/images/h.png", alt="Error") 
+                        div.card-content 
+                            p This is a best dance academy of the universe.
+                div.card 
+                    h3 Expert Teaching
+                    div.card-box 
+                        div.card-img 
+                            img(src="/static/images/d3.png", alt="Error") 
+                        div.card-content 
+                            p This is a best dance academy of the universe.
+        section#sponcerSection 
+            h2
+                |Our Sponsers 
+            div.sponcers 
+                img(src="/static/images/c1.png", alt="Our Sponcer" Class="spImage")     
+                img(src="/static/images/c2.png", alt="Our Sponcer" Class="spImage")     
+                img(src="/static/images/c3.png", alt="Our Sponcer" Class="spImage")     
+                img(src="/static/images/c4.png", alt="Our Sponcer" Class="spImage")     
+                img(src="/static/images/c5.png", alt="Our Sponcer" Class="spImage")     
+                img(src="/static/images/c6.png", alt="Our Sponcer" Class="spImage")     
+                    
+        footer#footer 
+            | Copyright©2022 MPDanceAcedemy.com | All rights reserved
+        script 
+            include ../static/index.js
